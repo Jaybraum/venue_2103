@@ -18,10 +18,10 @@ class Venue
   end
 
   def add_patron(patrons)
-    @patrons << patrons ### <= stuck
+    @patrons << patrons
   end
 
-  def patrons.upcase |patrons|
+  def patrons.upcase |patrons| ###<= stuck here!
     yell_at_patrons << patrons
   end
 
